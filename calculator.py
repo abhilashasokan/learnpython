@@ -1,5 +1,14 @@
-# num1 = input("Enter the number: ")
-# num2 = input("Enter the number: ")
-# result = round(float(num1) + float(num2))
-# print("Result is: " + str(result))
+num1 = float(input("Enter the first number: "))
+op = input("Enter the operation [+, -, /, *]: ")
+num2 = float(input("Enter the second number: "))
 
+if op == "+":
+    print(num1 + num2)
+elif op == "-":
+    print(num1 - num2)
+elif op == "/":
+    print(num1 / num2)
+elif op == "*":
+    print(num1 * num2)
+else:
+    print("Invalid operator!")
